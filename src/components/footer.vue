@@ -12,7 +12,6 @@
         <h3>Contact</h3>
         <address>
           fadillahastekriau@gmail.com<br />
-          + 628 12 4866 7908<br />
           + 628 22 8777 0886<br />
         </address>
       </div>
@@ -56,7 +55,7 @@ onUnmounted(() => {
   position: relative;
   left: 0; 
   right: 0; 
-  width: 100vw;
+  width: 1288px;
   background-color: #043873;
   color: #ffffff;
   padding: 2rem 1rem;

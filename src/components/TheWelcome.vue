@@ -48,12 +48,11 @@
 <script setup>
 import { useRouter } from "vue-router";
 import { ref, onMounted } from 'vue';
-import image1 from '../assets/cover1.png';
-import image2 from '../assets/cover2.png';
-import image3 from '../assets/cover2.png';
+import image1 from '../assets/cover1.jpg';
+import image2 from '../assets/cover4.jpg';
 
 const router = useRouter();
-const images = [image1, image2, image3];
+const images = [image1, image2];
 const currentImage = ref(0);
 
 const nextImage = () => {
@@ -128,7 +127,7 @@ onMounted(() => {
   position: absolute;
   top: 60px;
   left: 0;
-  width: 1295px;
+  width: 1288px;
   height: 100vh;
   object-fit: cover;
   z-index: -1;
