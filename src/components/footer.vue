@@ -55,7 +55,7 @@ onUnmounted(() => {
   position: relative;
   left: 0; 
   right: 0; 
-  width: 1288px;
+  width: 112%;
   background-color: #043873;
   color: #ffffff;
   padding: 2rem 1rem;
@@ -183,6 +183,7 @@ ul li a:hover {
   .footer{
     position: relative;
     margin-bottom: -100px;
+    width: 151%;
   }
 
   .footer-container {

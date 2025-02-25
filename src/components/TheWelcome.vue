@@ -127,8 +127,8 @@ onMounted(() => {
   position: absolute;
   top: 60px;
   left: 0;
-  width: 1288px;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   z-index: -1;
 }
